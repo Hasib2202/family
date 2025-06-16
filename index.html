@@ -571,53 +571,40 @@
                 <h4 class="text-2xl font-semibold text-center mb-8" style="color: var(--dracula-yellow)">
                     Generation 1 - Grandparents
                 </h4>
-                <div class="flex justify-center items-center space-x-8 relative">
+
+                <div
+                    class="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8 relative">
+
                     <!-- Grandfather -->
-                    <div class="person-card rounded-lg p-8 text-center w-72">
+                    <div class="person-card rounded-lg p-8 text-center w-full sm:w-72">
                         <div class="person-image mx-auto mb-6">
-                            <!-- <div class="photo-placeholder w-full h-full">Grandfather<br>Image</div> -->
                             <img src="./asset/dada.png" alt="Grandfather Image"
-                                class="w-full h-full object-cover rounded-full" />
+                                class="w-40 h-40 object-cover rounded-full mx-auto" />
                         </div>
-                        <h5 class="font-bold text-xl mb-3" style="color: var(--dracula-foreground)">
-                            Abdul Lotif Akon
+                        <h5 class="font-bold text-xl mb-3" style="color: var(--dracula-foreground)">Abdul Lotif Akon
                         </h5>
-                        <p class="text-base mb-2" style="color: var(--dracula-comment)">
-                            Grandfather
-                        </p>
-                        <p class="text-sm" style="color: var(--dracula-cyan)">
-                            Born 1950
-                        </p>
+                        <p class="text-base mb-2" style="color: var(--dracula-comment)">Grandfather</p>
+                        <p class="text-sm" style="color: var(--dracula-cyan)">Born 1950</p>
                     </div>
 
                     <!-- Connection Line -->
-                    <div class="w-20 h-2 rounded-full" style="
-                background: linear-gradient(
-                  90deg,
-                  var(--dracula-cyan),
-                  var(--dracula-purple)
-                );
-              "></div>
+                    <div class="hidden md:block w-20 h-2 rounded-full"
+                        style="background: linear-gradient(90deg, var(--dracula-cyan), var(--dracula-purple));">
+                    </div>
 
                     <!-- Grandmother -->
-                    <div class="person-card rounded-lg p-8 text-center w-72">
+                    <div class="person-card rounded-lg p-8 text-center w-full sm:w-72">
                         <div class="person-image mx-auto mb-6">
-                            <!-- <div class="photo-placeholder w-full h-full">Grandmother<br>Image</div> -->
                             <img src="./asset/dadi.png" alt="Grandmother Image"
-                                class="w-full h-full object-cover rounded-full" />
+                                class="w-40 h-40 object-cover rounded-full mx-auto" />
                         </div>
-                        <h5 class="font-bold text-xl mb-3" style="color: var(--dracula-foreground)">
-                            Sayeda Begum
-                        </h5>
-                        <p class="text-base mb-2" style="color: var(--dracula-comment)">
-                            Grandmother
-                        </p>
-                        <p class="text-sm" style="color: var(--dracula-cyan)">
-                            Born 1952
-                        </p>
+                        <h5 class="font-bold text-xl mb-3" style="color: var(--dracula-foreground)">Sayeda Begum</h5>
+                        <p class="text-base mb-2" style="color: var(--dracula-comment)">Grandmother</p>
+                        <p class="text-sm" style="color: var(--dracula-cyan)">Born 1952</p>
                     </div>
                 </div>
             </div>
+
 
             <!-- Generation 2: Sons & Their Wives -->
             <div class="mb-16">
@@ -865,8 +852,7 @@
                             Tipu & Ripa's Children
                         </h6>
 
-                        <div
-                            class="grandchildren-container ">
+                        <div class="grandchildren-container ">
                             <!-- Grandchild 1 -->
                             <div class="grandchild-card person-card rounded-lg p-6 text-center w-64 mx-auto">
                                 <div class="person-image mx-auto mb-4">
@@ -956,7 +942,7 @@
                             Dewlor & Ruma's Children
                         </h6>
                         <div class="grandchildren-container">
-                           <div class="grandchild-card person-card rounded-lg p-6 text-center w-64 mx-auto">
+                            <div class="grandchild-card person-card rounded-lg p-6 text-center w-64 mx-auto">
                                 <div class="person-image mx-auto mb-4">
                                     <img src="./asset/redowan.png" alt="Alex Smith" />
                                 </div>
@@ -984,7 +970,7 @@
                     <!-- Belall & Tondra's Children -->
                     <div class="mb-10">
                         <h6 class="text-lg font-semibold text-center mb-4" style="color: var(--dracula-cyan)">
-                            Belall & Tondra's  Children
+                            Belall & Tondra's Children
                         </h6>
                         <div class="grandchildren-container">
                             <div class="grandchild-card person-card rounded-lg p-6 text-center w-64 mx-auto">
@@ -1014,7 +1000,7 @@
                             Badsha & Rokeya's Children
                         </h6>
                         <div class="grandchildren-container">
-                           <div class="grandchild-card person-card rounded-lg p-6 text-center w-64 mx-auto">
+                            <div class="grandchild-card person-card rounded-lg p-6 text-center w-64 mx-auto">
                                 <div class="person-image mx-auto mb-4">
                                     <img src="./asset/siful.png" alt="Alex Smith" />
                                 </div>
@@ -1056,7 +1042,7 @@
                             Jolil & Shilpi's Children
                         </h6>
                         <div class="grandchildren-container">
-                           <div class="grandchild-card person-card rounded-lg p-6 text-center w-64 mx-auto">
+                            <div class="grandchild-card person-card rounded-lg p-6 text-center w-64 mx-auto">
                                 <div class="person-image mx-auto mb-4">
                                     <img src="./asset/mehadi.png" alt="Alex Smith" />
                                 </div>
@@ -1098,7 +1084,7 @@
                             Shahin & Morioms's Children
                         </h6>
                         <div class="grandchildren-container">
-                           <div class="grandchild-card person-card rounded-lg p-6 text-center w-64 mx-auto">
+                            <div class="grandchild-card person-card rounded-lg p-6 text-center w-64 mx-auto">
                                 <div class="person-image mx-auto mb-4">
                                     <img src="./asset/moushi.png" alt="Alex Smith" />
                                 </div>
@@ -1109,7 +1095,7 @@
                                     Grandchild
                                 </p>
                             </div>
-                           
+
                             <div class="grandchild-card person-card rounded-lg p-6 text-center w-64 mx-auto">
                                 <div class="person-image mx-auto mb-4">
                                     <img src="./asset/moon.png" alt="Alex Smith" />
@@ -1141,7 +1127,7 @@
                                     Grandchild
                                 </p>
                             </div>
-                            
+
                             <div class="grandchild-card person-card rounded-lg p-6 text-center w-64 mx-auto">
                                 <div class="person-image mx-auto mb-4">
                                     <img src="./asset/nihan.png" alt="Alex Smith" />
@@ -1212,88 +1198,89 @@
 
     <!-- Footer -->
     <!-- Footer -->
-<footer class="footer-gradient py-16 relative z-10">
-  <div class="max-w-6xl mx-auto px-4">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-      <!-- About Section -->
-      <div class="col-span-1 md:col-span-2">
-        <h4 class="text-2xl font-bold mb-4 generation-title">Family Legacy</h4>
-        <p class="text-gray-300 mb-4">
-          Preserving our family history and celebrating the bonds that unite
-          us across generations. From grandparents to grandchildren, our
-          story continues to unfold.
-        </p>
-        <div class="flex space-x-4">
-          <div class="w-10 h-10 rounded-full flex items-center justify-center glow-effect"
-            style="background: linear-gradient(135deg, var(--dracula-purple), var(--dracula-pink));">
-            <span class="text-white">📧</span>
-          </div>
-          <div class="w-10 h-10 rounded-full flex items-center justify-center glow-effect"
-            style="background: linear-gradient(135deg, var(--dracula-cyan), var(--dracula-green));">
-            <span class="text-white">📱</span>
-          </div>
-          <div class="w-10 h-10 rounded-full flex items-center justify-center glow-effect"
-            style="background: linear-gradient(135deg, var(--dracula-orange), var(--dracula-yellow));">
-            <span class="text-white">🏠</span>
-          </div>
+    <footer class="footer-gradient py-16 relative z-10">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- About Section -->
+                <div class="col-span-1 md:col-span-2">
+                    <h4 class="text-2xl font-bold mb-4 generation-title">Family Legacy</h4>
+                    <p class="text-gray-300 mb-4">
+                        Preserving our family history and celebrating the bonds that unite
+                        us across generations. From grandparents to grandchildren, our
+                        story continues to unfold.
+                    </p>
+                    <div class="flex space-x-4">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center glow-effect"
+                            style="background: linear-gradient(135deg, var(--dracula-purple), var(--dracula-pink));">
+                            <span class="text-white">📧</span>
+                        </div>
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center glow-effect"
+                            style="background: linear-gradient(135deg, var(--dracula-cyan), var(--dracula-green));">
+                            <span class="text-white">📱</span>
+                        </div>
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center glow-effect"
+                            style="background: linear-gradient(135deg, var(--dracula-orange), var(--dracula-yellow));">
+                            <span class="text-white">🏠</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Family Tree Links -->
+                <div>
+                    <h5 class="text-lg font-semibold mb-4" style="color: var(--dracula-green)">
+                        Family Tree
+                    </h5>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-pink-400 transition-colors">Grandparents</a></li>
+                        <li><a href="#" class="hover:text-pink-400 transition-colors">Children</a></li>
+                        <li><a href="#" class="hover:text-pink-400 transition-colors">Grandchildren</a></li>
+                        <li><a href="#" class="hover:text-pink-400 transition-colors">Family History</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources Links -->
+                <div>
+                    <h5 class="text-lg font-semibold mb-4" style="color: var(--dracula-orange)">
+                        Resources
+                    </h5>
+                    <ul class="space-y-2 text-gray-300">
+                        <li>
+                            <a href="#" class="hover:text-pink-400 transition-colors">
+                                Photo Gallery <span class="text-xs text-[var(--dracula-comment)]">(Coming Soon)</span>
+                            </a>
+                        </li>
+                        <li><a href="#" class="hover:text-pink-400 transition-colors">Family Stories</a></li>
+                        <li><a href="#" class="hover:text-pink-400 transition-colors">Genealogy</a></li>
+                        <li><a href="#" class="hover:text-pink-400 transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-600 mt-12 pt-8 text-center">
+
+                <!-- Developer Credit -->
+                <div class="mt-6 flex items-center justify-center gap-3">
+                    <img src="./asset/hasib.png" alt="Md. Mostofa Hasib"
+                        class="w-10 h-10 rounded-full shadow-md border-2 border-[var(--dracula-cyan)]" />
+                    <p class="text-sm text-gray-400">
+                        This website is made by <span class="font-medium text-white">Md. Mostofa Hasib</span>
+                    </p>
+                </div>
+
+
+
+                <p class="text-gray-400">
+                    &copy; 2025 Akon Family Legacy. Made with ❤️ for our family.
+                </p>
+                <p class="text-sm mt-2" style="color: var(--dracula-comment)">
+                    Connecting generations through love, memories, and shared heritage
+                </p>
+
+
+            </div>
         </div>
-      </div>
-
-      <!-- Family Tree Links -->
-      <div>
-        <h5 class="text-lg font-semibold mb-4" style="color: var(--dracula-green)">
-          Family Tree
-        </h5>
-        <ul class="space-y-2 text-gray-300">
-          <li><a href="#" class="hover:text-pink-400 transition-colors">Grandparents</a></li>
-          <li><a href="#" class="hover:text-pink-400 transition-colors">Children</a></li>
-          <li><a href="#" class="hover:text-pink-400 transition-colors">Grandchildren</a></li>
-          <li><a href="#" class="hover:text-pink-400 transition-colors">Family History</a></li>
-        </ul>
-      </div>
-
-      <!-- Resources Links -->
-      <div>
-        <h5 class="text-lg font-semibold mb-4" style="color: var(--dracula-orange)">
-          Resources
-        </h5>
-        <ul class="space-y-2 text-gray-300">
-          <li>
-            <a href="#" class="hover:text-pink-400 transition-colors">
-              Photo Gallery <span class="text-xs text-[var(--dracula-comment)]">(Coming Soon)</span>
-            </a>
-          </li>
-          <li><a href="#" class="hover:text-pink-400 transition-colors">Family Stories</a></li>
-          <li><a href="#" class="hover:text-pink-400 transition-colors">Genealogy</a></li>
-          <li><a href="#" class="hover:text-pink-400 transition-colors">Contact Us</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Footer Bottom -->
-    <div class="border-t border-gray-600 mt-12 pt-8 text-center">
-      
-        <!-- Developer Credit -->
-      <div class="mt-6 flex items-center justify-center gap-3">
-        <img src="./asset/hasib.png" alt="Md. Mostofa Hasib" class="w-10 h-10 rounded-full shadow-md border-2 border-[var(--dracula-cyan)]" />
-        <p class="text-sm text-gray-400">
-          This website is made by <span class="font-medium text-white">Md. Mostofa Hasib</span>
-        </p>
-      </div>
-      
-
-
-        <p class="text-gray-400">
-        &copy; 2025 Akon Family Legacy. Made with ❤️ for our family.
-      </p>
-      <p class="text-sm mt-2" style="color: var(--dracula-comment)">
-        Connecting generations through love, memories, and shared heritage
-      </p>
-
-      
-    </div>
-  </div>
-</footer>
+    </footer>
 
 
     <script>
